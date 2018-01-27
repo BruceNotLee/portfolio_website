@@ -1,0 +1,102 @@
+@import url(https://cdn.rawgit.com/tonsky/FiraCode/1.204/distr/fira_code.css);
+
+@font-face{
+  font-family: 'Fira Code';
+  src: url('eot/FiraCode-Light.eot');
+  src: url('eot/FiraCode-Light.eot') format('embedded-opentype'),
+       url('woff2/FiraCode-Light.woff2') format('woff2'),
+       url('woff/FiraCode-Light.woff') format('woff'),
+       url('ttf/FiraCode-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;}
+div{
+  border: 1em ;
+  padding: 1%;
+
+}
+.body{
+  background-color: #F0F0F1;
+  color: #272c33;
+  font-family: 'Fira Code';
+  font-size: 1em;
+  height: auto;
+  width: auto;}
+
+.header{
+  font-size: 3vw;
+  color: #F0F0F1;
+  text-align: center;
+  background-color: rgb(3, 38, 56);
+  margin-bottom: 2em;}
+
+.header > div {
+  margin-bottom: -7%;
+  height: 8em;
+  padding: 2em;
+}
+
+#background_header_image{
+  background: url("images/C22.png") no-repeat top center fixed;
+  background-size: 100%;
+}
+
+#profile_img{
+  width: 5em;
+  height: 5em;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  box-shadow: inset 0 1.5px 3px 0 rgba(0,0,0,.15);
+  margin: 1em;
+  position: relative;
+  top: -2em;
+  }
+
+#profile_name{
+  margin: 1em;
+  position: relative;
+  top: -2.5em;
+}
+
+#contact_information{
+  width: 100%;
+  text-align: center;
+  font-size: 4vw;
+  position: relative;
+}
+
+#contact_information > div{
+  width: auto;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  margin: 1%;
+}
+
+.sections{
+  padding: 1em;
+}
+
+#projects{}
+
+#logo_banner{
+  width: 100%;
+  text-align: center;}
+
+#logo_banner > div{
+  width: 15%;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  margin: 1%;
+  padding: 1em;}
+
+.footer{
+  margin-top: 2em;
+  text-align: center;
+}
+
+a:link {color: #4F80E1;}
+a:visited {color: #292C44;}
+a:hover {color: #18CDCA;
+text-decoration: none;}
+a:active {color: #FF5349;}

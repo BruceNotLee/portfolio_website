@@ -58,10 +58,12 @@ div{
 }
 
 #contact_information{
+  display: flex;
+  flex-wrap: wrap;
   width: 100%;
   text-align: center;
-  font-size: 4vw;
-  position: relative;
+  font-size: 1em;
+  justify-content: space-around;
 }
 
 #contact_information > div{
@@ -79,8 +81,11 @@ div{
 #projects{}
 
 #logo_banner{
+  display: flex;
+  flex-wrap: wrap;
   width: 100%;
-  text-align: center;}
+  text-align: center;
+  justify-content: space-around;}
 
 #logo_banner > div{
   width: 15%;
